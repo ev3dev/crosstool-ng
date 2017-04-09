@@ -1,0 +1,32 @@
+Source: crosstool-ng
+Section: unknown
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 9),
+    autoconf,
+    automake,
+    autotools-dev,
+    bison,
+    bzip2,
+    flex,
+    gawk,
+    git,
+    gperf,
+    help2man,
+    libncurses5-dev,
+    libncursesw5-dev,
+    libtool-bin,
+    subversion,
+    texinfo,
+    wget
+Standards-Version: 3.9.7
+Homepage: http://crosstool-ng.org/
+
+Package: crosstool-ng
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, build-essential, texi2html, texinfo
+Description: Versatile (cross-)toolchain generator.
+ Crosstool-NG aims at building toolchains. Toolchains are an essential component
+ in a software development project. It will compile, assemble and link the code
+ that is being developed. Some pieces of the toolchain will eventually end up in
+ the resulting binaries: static libraries are but an example.
