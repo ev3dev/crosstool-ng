@@ -24,8 +24,3 @@ include /usr/share/dpkg/default.mk
 # Make sure we call ./bootstrap before running dh_auto_configure
 override_dh_auto_configure:
 	./bootstrap && dh_auto_configure
-
-#Make sure to include bash completion file in the package
-override_dh_auto_install:
-	MAKELEVEL=0 dh_auto_install
-	install -D ct-ng.comp $$(pwd)/debian/crosstool-ng/etc/bash_completion.d/ct-ng.comp

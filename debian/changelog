@@ -1,5 +1,5 @@
-crosstool-ng (1.22.0git) unstable; urgency=low
+crosstool-ng (1.22.0ev3dev1) xenial; urgency=low
 
-  * Initial Debianized Release.
+  * Initial Release.
 
- -- Andrew 'Necromant' Andrianov <andrew@ncrmnt.org>  Mon, 07 Dec 2015 20:53:53 +0300
+ -- David Lechner <david@lechnology.com>  Sat, 08 Apr 2017 20:54:54 -0500
