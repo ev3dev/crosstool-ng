@@ -1,3 +1,9 @@
+crosstool-ng (1.23.0~rc2ev3dev1) xenial; urgency=medium
+
+  * Merge upstream version 1.23.0-rc2
+
+ -- David Lechner <david@lechnology.com>  Sat, 08 Apr 2017 21:39:14 -0500
+
 crosstool-ng (1.22.0ev3dev1) xenial; urgency=low
 
   * Initial Release.
