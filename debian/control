@@ -1,5 +1,5 @@
 Source: crosstool-ng
-Section: unknown
+Section: devel
 Priority: optional
 Maintainer: David Lechner <david@lechnology.com>
 Build-Depends: debhelper (>= 9),
