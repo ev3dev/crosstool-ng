@@ -4,20 +4,17 @@
 
 Crosstool-NG aims at building toolchains. Toolchains are an essential component in a software development project. It will compile, assemble and link the code that is being developed. Some pieces of the toolchain will eventually end up in the resulting binaries: static libraries are but an example.
 
+**Before reporting a bug**, please read [bug reporting guidelines](http://crosstool-ng.github.io/support/). Bugs that do not provide the required information will be closed without explanation.
+
 Refer to [documentation at crosstool-NG website](http://crosstool-ng.github.io/docs/) for more information on how to configure, install and use crosstool-NG.
 
-##########################################
 **Note 1:** If you elect to build a uClibc-based toolchain, you will have to prepare a config file for uClibc with <= crosstool-NG-1.21.0. In >= crosstool-NG-1.22.0 you only need to prepare a config file for uClibc(or uClibc-ng) if you really need a custom config for uClibc.
 
 **Note 2:** If you call `ct-ng --help` you will get help for `make(2)`. This is because ct-ng is in fact a `make(2)` script. There is no clean workaround for this.
 
 ## Repository layout
 
-|URL | Purpose |
-|---|---|
-| https://github.com/crosstool-ng/crosstool-ng/ | Main development repository |
-
-To clone the repository:
+To clone the crosstool-NG repository:
 
 ```
 git clone https://github.com/crosstool-ng/crosstool-ng
