@@ -1,3 +1,9 @@
+crosstool-ng (1.23.0ev3dev2) xenial; urgency=medium
+
+  * Update section to "devel"
+
+ -- David Lechner <david@lechnology.com>  Sat, 21 Oct 2017 16:19:43 -0500
+
 crosstool-ng (1.23.0ev3dev1) xenial; urgency=medium
 
   * Merge upstream version 1.23.0
