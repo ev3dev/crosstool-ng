@@ -1,3 +1,11 @@
+crosstool-ng (1.23.0ev3dev1) xenial; urgency=medium
+
+  * Merge upstream version 1.23.0
+  * Add ncurses-term dependency
+  * Fix bash completion
+
+ -- David Lechner <david@lechnology.com>  Sat, 21 Oct 2017 16:13:26 -0500
+
 crosstool-ng (1.23.0~rc2ev3dev1) xenial; urgency=medium
 
   * Merge upstream version 1.23.0-rc2
