@@ -1,3 +1,9 @@
+crosstool-ng (1.23.0.20180418.git90d1444-1ev3dev1) bionic; urgency=medium
+
+  * Merge upstream commit 90d1444
+
+ -- David Lechner <david@lechnology.com>  Sat, 28 Apr 2018 21:44:36 -0500
+
 crosstool-ng (1.23.0ev3dev2) xenial; urgency=medium
 
   * Update section to "devel"
